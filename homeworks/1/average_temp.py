@@ -21,7 +21,8 @@ def is_number(str_value):
     try:
         float(str_value)
         return True
-    except ValueError:
+    except ValueError as e:
+        print(e)
         return False
 
 
@@ -29,7 +30,7 @@ def is_number(str_value):
 def is_valid_temperature(value, scale):
     try:
         value = float(value)
-    except ValueError:
+    except ValueError as e:
         print(e)
         return None
 
