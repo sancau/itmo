@@ -1,6 +1,5 @@
 # coding=utf-8
 
-
 def to_fahrenheit(value):
     try:
         return float(value) * 1.8 + 32
