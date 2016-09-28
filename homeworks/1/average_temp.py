@@ -38,7 +38,7 @@ def is_valid_temperature(value, scale):
     elif scale == 'f':
         return value >= to_fahrenheit(-273.15)
     
-    print('Ivalid scale.')
+    print('Invalid scale.')
     return None
 
 
